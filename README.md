@@ -64,3 +64,9 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+Notas de compatibilidad con origin
+
+El nombre de las categorías de blog es distinto
+El modelo Blog en lugar del campo 'status' tiene el campo 'is_featured'

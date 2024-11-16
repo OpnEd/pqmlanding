@@ -19,5 +19,13 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
+
+        $this->call([
+            BlogCategorySeeder::class,
+            BlogSeeder::class,
+        ]);
     }
 }
+
+//php artisan db:seed (Para ejecutar el DatabaseSeeder)
+//php artisan db:seed --class=UserSeeder (Si necesitas ejecutar un seeder específico de manera independiente)
